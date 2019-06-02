@@ -1,30 +1,18 @@
 export default [
   {
     img: 'http://ianvictor.dk/img/tdc.jpg',
-    title: 'TDC'
+    title: 'Initiativet'
   },
   {
     img: 'http://ianvictor.dk/img/tdc.jpg',
-    title: 'TDC'
+    title: 'Panamerica Bus'
   },
   {
     img: 'http://ianvictor.dk/img/tdc.jpg',
-    title: 'TDC'
+    title: 'Sips'
   },
   {
     img: 'http://ianvictor.dk/img/tdc.jpg',
-    title: 'TDC'
-  },
-  {
-    img: 'http://ianvictor.dk/img/tdc.jpg',
-    title: 'TDC'
-  },
-  {
-    img: 'http://ianvictor.dk/img/tdc.jpg',
-    title: 'TDC'
-  },
-  {
-    img: 'http://ianvictor.dk/img/tdc.jpg',
-    title: 'TDC'
+    title: 'gyroSynth'
   }
 ];

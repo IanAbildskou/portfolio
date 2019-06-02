@@ -25,7 +25,9 @@ const useStyles = makeStyles(theme => ({
     transform: 'translateZ(0)',
   },
   title: {
-    color: theme.palette.primary.light,
+    color: 'white',
+    fontWeight: 'bold',
+    fontSize: '1.5em'
   },
   titleBar: {
     background:
@@ -58,7 +60,7 @@ function App() {
       {listList.map(({ title, data }) => (
         <div>
           <h2>{title}</h2>
-          <GridList className={classes.gridList} cols={4}>
+          <GridList className={classes.gridList} cols={6}>
             {data.map(tile => (
               <GridListTile key={tile.img}>
                 <img src={tile.img} alt={tile.title} />
