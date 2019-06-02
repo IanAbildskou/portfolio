@@ -20,6 +20,7 @@ const useStyles = makeStyles(theme => ({
     backgroundColor: theme.palette.background.paper,
   },
   gridList: {
+    padding: '0 8px',
     flexWrap: 'nowrap',
     // Promote the list into his own layer on Chrome. This cost memory but helps keeping high FPS.
     transform: 'translateZ(0)',
@@ -31,7 +32,7 @@ const useStyles = makeStyles(theme => ({
   },
   titleBar: {
     background:
-      'linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%)',
+      'linear-gradient(to top, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.2) 70%, rgba(0,0,0,0) 100%)',
   }
 }));
 
@@ -53,6 +54,7 @@ function App() {
       title: 'Other',
       data: otherData
     }];
+  const cols = window.innerWidth / 250
   return (
     <div className="App">
       <CssBaseline />
@@ -60,7 +62,7 @@ function App() {
       {listList.map(({ title, data }) => (
         <div>
           <h2>{title}</h2>
-          <GridList className={classes.gridList} cols={6}>
+          <GridList className={classes.gridList} cols={cols}>
             {data.map(tile => (
               <GridListTile key={tile.img}>
                 <img src={tile.img} alt={tile.title} />
