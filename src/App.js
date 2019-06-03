@@ -12,6 +12,7 @@ import DialogTitle from '@material-ui/core/DialogTitle';
 import Button from '@material-ui/core/Button';
 
 import './App.css';
+import detailsData from './detailsData';
 import workData from './workData';
 import freeTimeProjectsData from './freeTimeProjectsData';
 import schoolData from './schoolData';
@@ -49,6 +50,8 @@ const useStyles = makeStyles(theme => ({
 function App() {
   const classes = useStyles();
   const listList = [{
+      data: detailsData
+    }, {
       title: 'Work',
       data: workData
     }, {
