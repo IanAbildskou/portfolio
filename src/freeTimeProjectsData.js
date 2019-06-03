@@ -2,7 +2,10 @@ export default [
   {
     img: 'http://ianvictor.dk/img/initiativet.jpg',
     title: 'Initiativet',
-    text: "In 2017 a former colleague from ITU started a political party proposing direct democracy. The plan was to build a platform where people could follow and vote on proposals currently in the Danish parliament.<br><br>Really interesting project, that had a lot of traction in the media. I volunteered to build the back end as well as integrations to the parliaments systems."
+    text: "In 2017 a former colleague from ITU started a political party proposing direct democracy. The plan was to build a platform where people could follow and vote on proposals currently in the Danish parliament.<br><br>Really interesting project, that had a lot of traction in the media. I volunteered to build the back end as well as integrations to the parliaments systems.",
+    buttons: [
+      { label: 'Initiativet', url: 'https://initiativet.dk/'}
+    ]
   },
   {
     img: 'http://ianvictor.dk/img/panamericaBus.PNG',
@@ -17,7 +20,10 @@ export default [
   {
     img: 'http://ianvictor.dk/img/sips.PNG',
     title: 'Sips',
-    text: "My good friend and former colleague, Hari from Abtion, and I built a mobile drinking game. I have not built a piece of software that is easier to get people to interact with.<br><br>Who’d have thought?"
+    text: "My good friend and former colleague, Hari from Abtion, and I built a mobile drinking game. I have not built a piece of software that is easier to get people to interact with.<br><br>Who’d have thought?",
+    buttons: [
+      { label: 'Sips', url: 'http://sips.surge.sh/'}
+    ]
   },
   {
     img: 'http://ianvictor.dk/img/gyroSynth.png',
