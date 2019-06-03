@@ -17,7 +17,7 @@ import workData from './workData';
 import freeTimeProjectsData from './freeTimeProjectsData';
 import schoolData from './schoolData';
 import travelData from './travelData';
-import otherData from './otherData';
+import hobbyData from './hobbyData';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -64,8 +64,8 @@ function App() {
       title: 'Travel',
       data: travelData
     }, {
-      title: 'Other',
-      data: otherData
+      title: 'Hobby',
+      data: hobbyData
     }];
   const [open, setOpen] = React.useState(false);
 
@@ -106,16 +106,18 @@ function App() {
                   <DialogContent>
                     <div className='dialog-image' style={{backgroundImage: 'url(' + tile.img + ')'}}></div>
                     <DialogContentText id="alert-dialog-description">
-                      {tile.text}
+                      <div dangerouslySetInnerHTML={{__html: tile.text}}></div>
                     </DialogContentText>
                   </DialogContent>
                   <DialogActions>
                     <Button onClick={handleClose} color="primary">
-                      Disagree
+                      Close
                     </Button>
-                    <Button onClick={handleClose} color="primary" autoFocus>
-                      Agree
-                    </Button>
+                    {tile.buttons && tile.buttons.map(button => (
+                      <Button onClick={() => window.open(button.url)} color="primary" variant='contained'>
+                        {button.label}
+                      </Button>
+                    ))}
                   </DialogActions>
                 </Dialog>
               </GridListTile>
