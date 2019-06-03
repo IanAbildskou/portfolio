@@ -81,9 +81,9 @@ function App() {
     <div className="App">
       <CssBaseline />
       <h1>Hi! I'm Ian.</h1>
-      <p className='welcome-text'>I'm a software developer, designer, musician, and biker living in Copenhagen. Here's a collection of things I have spent my time on.</p>
+      <p className='welcome-text'>I am a software developer, designer, musician, and biker living in Copenhagen. Here is a collection of things I have spent my time on.</p>
       {listList.map(({ title, data }) => (
-        <div key={title}>
+        <div key={title + data[0].title}>
           <h2>{title}</h2>
           <GridList className={classes.gridList} cols={window.innerWidth / 250}>
             {data.map(tile => (
@@ -105,9 +105,9 @@ function App() {
                 >
                   <DialogTitle id="alert-dialog-title">{tile.title}</DialogTitle>
                   <DialogContent>
-                    <div className='dialog-image' style={{backgroundImage: 'url(' + tile.img + ')'}}></div>
+                    {tile.videoUrl ? <video muted={true} autoPlay="autoplay" width="100%" controls><source src={tile.videoUrl} type={"video/" + tile.videoType}></source></video> : <div className='dialog-image' style={{backgroundImage: 'url(' + tile.img + ')'}}></div>}
                     <DialogContentText id="alert-dialog-description">
-                      <div dangerouslySetInnerHTML={{__html: tile.text}}></div>
+                      <span dangerouslySetInnerHTML={{__html: tile.text}}></span>
                     </DialogContentText>
                   </DialogContent>
                   <DialogActions>
@@ -115,7 +115,7 @@ function App() {
                       Close
                     </Button>
                     {tile.buttons && tile.buttons.map(button => (
-                      <Button onClick={() => window.open(button.url)} color="primary" variant='contained'>
+                      <Button key={button.url} onClick={() => window.open(button.url)} color="primary" variant='contained'>
                         {button.label}
                       </Button>
                     ))}

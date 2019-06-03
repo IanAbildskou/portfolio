@@ -5,7 +5,9 @@ export default [
     text: "In 2017 a friend and I had the brilliant idea of starting a band. Of course it was really late, and we had had more than one drink.<br><br>Surprisingly it actually happened. I’m really proud of the result, and you should make sure, to book us for your next party now!",
     buttons: [
       { label: 'Ekkokammer', url: 'https://ekkokammer.band/'}
-    ]
+    ],
+    videoUrl: 'http://ianvictor.dk/Ekkokammer%20-%20Crazy.mp4',
+    videoType: 'mp4'
   },
   {
     img: 'http://ianvictor.dk/img/mc.png',

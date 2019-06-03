@@ -6,7 +6,7 @@ export default [
     buttons: [
       { label: 'LinkedIn', url: 'https://www.linkedin.com/in/ivakz/'},
       { label: 'Email', url: 'mailto:ianabildskou@gmail.com?subject=Hi,%20Ian!'},
-      { label: 'CV', url: 'http://ianvictor.dk/pdf/iancv.pdf'}
+      { label: 'CV', url: 'http://ianvictor.dk/pdf/Ians CV.pdf'}
     ]
   }
 ];

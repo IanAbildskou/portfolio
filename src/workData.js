@@ -13,7 +13,9 @@ export default [
     text: "After the successful case competition at ITU in 2016, I got a job offer from TDC Erhverv!<br><br>I decided to try my hand at the biggest IT company in Denmark.<br><br>There are a LOT of challenges working at a company that size, but once you're on the right track exciting things happen!<br><br>I was functioning as a business analyst and UX designer on our self service platform. Creating an interface for one of the oldest and most complex IT systems in Denmark keeps your mind sharp!",
     buttons: [
       { label: 'TDC', url: 'https://tdc.dk/'}
-    ]
+    ],
+    videoUrl: 'http://ianvictor.dk/TDC_ ITU hos TDC.mp4',
+    videoType: 'mp4'
   },
   {
     img: 'http://ianvictor.dk/img/iansDesign.jpg',
@@ -26,7 +28,9 @@ export default [
     text: "After I came home from Prague in 2015, I got a job at Abtion, a small digital/software house in Frederiksberg. I functioned as a UI and UX designer, but also did websites and graphical stuff.<br><br>It was a great place to work! We had an office dog, named Muffi, in charge of HR, so working conditions were optimal.",
     buttons: [
       { label: 'Abtion', url: 'https://abtion.com/'}
-    ]
+    ],
+    videoUrl: 'https://abtion.com/static/img/abtion.webm',
+    videoType: 'webm'
   },
   {
     img: 'http://ianvictor.dk/img/startupyard.png',
@@ -39,7 +43,9 @@ export default [
   {
     img: 'http://ianvictor.dk/img/australia.jpg',
     title: 'Cowboy',
-    text: "After &Co I decided to go traveling in 2012! I went to Australia for six months, to try my hand at jackarooing, the Australian version of a cow boys.<br><br>These days they don’t use horses very much though. Instead we used motorbikes and helicopters. I was herding cattle in the middle of Queensland in 50 degrees heat. It was quite an adventure!"
+    text: "After &Co I decided to go traveling in 2012! I went to Australia for six months, to try my hand at jackarooing, the Australian version of a cow boys.<br><br>These days they don’t use horses very much though. Instead we used motorbikes and helicopters. I was herding cattle in the middle of Queensland in 50 degrees heat. It was quite an adventure!",
+    videoUrl: 'http://ianvictor.dk/aus.mp4',
+    videoType: 'mp4'
   },
   {
     img: 'http://ianvictor.dk/img/andCo.PNG',

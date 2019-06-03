@@ -5,7 +5,9 @@ export default [
     text: "In 2017 a former colleague from ITU started a political party proposing direct democracy. The plan was to build a platform where people could follow and vote on proposals currently in the Danish parliament.<br><br>Really interesting project, that had a lot of traction in the media. I volunteered to build the back end as well as integrations to the parliaments systems.",
     buttons: [
       { label: 'Initiativet', url: 'https://initiativet.dk/'}
-    ]
+    ],
+    videoUrl: 'https://initiativet.dk/assets/videos/loop_vid_small.mp4',
+    videoType: 'mp4'
   },
   {
     img: 'http://ianvictor.dk/img/panamericaBus.PNG',
@@ -15,7 +17,9 @@ export default [
   {
     img: 'http://ianvictor.dk/img/itcc.jpg',
     title: 'ITCC',
-    text: "In the spring of 2016 I participated in the IT case competition at ITU with Jakob O. Okkels and Olivia B. Nielsen. The case was about, how TDC, the biggest Danish telco provider, could meet the market with new IT initiatives.<br><br>We suggested, that they create and facilitate a platform, where users can exchange and broker their data in exchange for services, discounts and even money, to third parties.<br><br>We won the competition, and TDC invited us to their headquarters, to pitch the idea to their executive board. It was a fantastic experience, and we hope, they will implement our ideas some day."
+    text: "In the spring of 2016 I participated in the IT case competition at ITU with Jakob O. Okkels and Olivia B. Nielsen. The case was about, how TDC, the biggest Danish telco provider, could meet the market with new IT initiatives.<br><br>We suggested, that they create and facilitate a platform, where users can exchange and broker their data in exchange for services, discounts and even money, to third parties.<br><br>We won the competition, and TDC invited us to their headquarters, to pitch the idea to their executive board. It was a fantastic experience, and we hope, they will implement our ideas some day.",
+    videoUrl: 'http://ianvictor.dk/TDC_ ITU hos TDC.mp4',
+    videoType: 'mp4'
   },
   {
     img: 'http://ianvictor.dk/img/sips.PNG',
