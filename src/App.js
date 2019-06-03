@@ -81,6 +81,7 @@ function App() {
     <div className="App">
       <CssBaseline />
       <h1>Hi! I'm Ian.</h1>
+      <p className='welcome-text'>I'm a software developer, designer, musician, and biker living in Copenhagen. Here's a collection of things I have spent my time on.</p>
       {listList.map(({ title, data }) => (
         <div key={title}>
           <h2>{title}</h2>
