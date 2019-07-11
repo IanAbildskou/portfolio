@@ -9,6 +9,7 @@
     "react-scripts": "3.0.1"
   },
   "scripts": {
+    "deploy": "npm run build && now build -A ../now.json --target production",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

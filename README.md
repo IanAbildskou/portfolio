@@ -18,4 +18,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### Deployment
 
-I'm using 'now' for deployment. Run 'now' in build folder to deploy. Assuming you have now installed.
+`npm run deploy`
+
+This will build a new version and deploy it to "now". It assumes you have now installed. It will also set the aliases ianvictor.dk and www.ianvictor.dk.
