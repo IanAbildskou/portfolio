@@ -6,7 +6,7 @@ export default [
     buttons: [
       { label: 'LinkedIn', url: 'https://www.linkedin.com/in/ivakz/'},
       { label: 'Email', url: 'mailto:ianabildskou@gmail.com?subject=Hi,%20Ian!'},
-      { label: 'CV', url: 'pdf/Ians CV.pdf'}
+      { label: 'CV', url: 'pdf/ians_cv.pdf'}
     ]
   },
   {
@@ -16,7 +16,7 @@ export default [
     buttons: [
       { label: 'LinkedIn', url: 'https://www.linkedin.com/in/ivakz/'},
       { label: 'Email', url: 'mailto:ianabildskou@gmail.com?subject=Hi%20Ian!'},
-      { label: 'CV', url: 'pdf/Ians CV.pdf'}
+      { label: 'CV', url: 'pdf/ians_cv.pdf'}
     ]
   }
 ];
