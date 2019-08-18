@@ -18,5 +18,10 @@ export default [
       { label: 'Email', url: 'mailto:ianabildskou@gmail.com?subject=Hi%20Ian!'},
       { label: 'CV', url: 'pdf/ians_cv.pdf'}
     ]
+  },
+  {
+    img: 'img/opinions.png',
+    title: 'Opinions',
+    text: "WARNING: The following is a list of personal opinions.<br><br>I believe them to be true right now, but I'm sure they'll change. Please let me know if you disagree with them.<br><br><ol><li>Humanism is a good framework for understanding and interacting with the world</li><li>The world has never been better</li><li>The future is bright</li><li>People are mostly good</li><li>Complexity and entropy are our enemies</li><li>Technology should serve people</li><li>Work is redeeming</li><li>The best solution is usually a compromise</li><li>Science is as important as art</li><li>It’s better to build one thing well than two things ok-ish</li><li>Generalists are more useful than experts</li><li>Empowered people do better</li><li>Minimal viable products are minimal</li><li>Look for a solution one abstraction level above the problem</li><li>Simplicity is good</li><li>Designs should not strive to be beautiful</li><li>Given enough time and resources people can do anything</li><li>Fun is important</li><li>Playfulness in design has untapped potential</li></ol>"
   }
 ];
