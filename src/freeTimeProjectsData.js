@@ -32,6 +32,9 @@ export default [
   {
     img: 'img/gyroSynth.png',
     title: 'gyroSynth',
-    text: "While I was nomadding around California in 2018 I missed my musical instruments back home dearly. I wondered why instruments couldn’t be more portable.<br><br>I had the idea to use a smartphone as a synth controller. A smartphone has so many expressive sensors like the gyroscope, accelerometer touchscreen and so on. It even has speakers!<br><br>I had a lot of fun building and playing with the gyroSynth. It’s very tricky to calibrate the gyroscope across different devices."
+    text: "While I was nomadding around California in 2018 I missed my musical instruments back home dearly. I wondered why instruments couldn’t be more portable.<br><br>I had the idea to use a smartphone as a synth controller. A smartphone has so many expressive sensors like the gyroscope, accelerometer touchscreen and so on. It even has speakers!<br><br>I had a lot of fun building and playing with the gyroSynth. It’s very tricky to tell whether the instrument you've built is designed poorly or whether you just haven't practiced enough!",
+    buttons: [
+      { label: 'GyroSunth', url: 'https://gyrosynth.ianabildskou.now.sh/'}
+    ]
   }
 ];
