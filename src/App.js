@@ -115,7 +115,7 @@ function App() {
                       Close
                     </Button>
                     {tile.buttons && tile.buttons.map(button => (
-                      <Button key={button.url} onClick={() => window.open(button.url)} color="primary" variant='outlined'>
+                      <Button className={'go-on-button'} key={button.url} onClick={() => window.open(button.url)} color="primary" variant='outlined'>
                         {button.label}
                       </Button>
                     ))}

@@ -52,6 +52,7 @@ h2 {
   overflow: visible;
 }
 
-button {
+button,
+button.go-on-button {
   margin-left: 8px;
 }
